@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -wall $CFILE >> cisfun
+gcc -Wall $CFILE >> cisfun
