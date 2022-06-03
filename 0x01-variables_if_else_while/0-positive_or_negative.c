@@ -12,7 +12,7 @@
  *will tell as whether the value is positive ,
  *negative or zer
  *main function is initisialiazation of file
- *Return 0 (Success)
+ *Return: 0 (Success)
  */
 int main(void)
 {
