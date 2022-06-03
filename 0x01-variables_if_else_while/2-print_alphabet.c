@@ -4,6 +4,7 @@
 /**
  * main - Entry point
  *a: char type
+ *c: int type
  *
  * Description: a save the first alphabet and prints out lower
  * case alphabet
