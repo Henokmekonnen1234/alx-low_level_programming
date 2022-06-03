@@ -9,7 +9,6 @@
  *Return 0 (Success message)
  */
 int main(void)
-/* this is main code */
 {
 	signed int n;
 
