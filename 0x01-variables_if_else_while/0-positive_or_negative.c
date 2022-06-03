@@ -3,8 +3,15 @@
 #include <stdio.h>
 
 /**
- *main-Entry point
- *print n
+ *main - Entry point
+ *n: int value
+ *
+ *Description: n is signed int and it can store
+ *negative ,positive or zore then randome value
+ *assigned to it and the conditional if statement
+ *will tell as whether the value is positive ,
+ *negative or zer
+ *main function is initisialiazation of file
  *Return 0 (Success)
  */
 int main(void)
