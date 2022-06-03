@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- *
  *main-Entry point
  *print n
  *Return 0 (Success)
