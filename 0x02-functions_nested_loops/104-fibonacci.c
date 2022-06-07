@@ -17,7 +17,7 @@ int main(void)
 
 	printf("1");
 
-	for (count = 2; count < 93; count++) 
+	for (count = 2; count < 93; count++)
 	{
 		sum = a + b;
 		a = b;
