@@ -12,7 +12,7 @@ int main(void)
 	int count = 0;
 	long a = 1, b = 1, sum = 1;
 
-	while (count <= 50)
+	while (count < 50)
 	{
 		printf("%ld, ", sum);
 		sum = a + b;
