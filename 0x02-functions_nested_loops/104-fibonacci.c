@@ -14,7 +14,7 @@ int main(void)
 	int a = 1, num = 1, sum = 1, b = 1;
 
 	do {
-		printf("  %u, ", sum);
+		printf("%u, ", sum);
 		sum = num + b;
 		b = num;
 		num = sum;
