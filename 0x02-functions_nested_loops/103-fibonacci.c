@@ -9,18 +9,18 @@
  */
 int main(void)
 {
-	unsigned long a = 1, b = 1, sum = 0;
+	unsigned long a = 1, b = 1, sum = 0, value;
 
 	while (sum < 4000000)
 	{
 		if (sum % 2 == 0)
 		{
-			printf("%lu, ", sum);
+			value += sum;
 		}
 		sum = a + b;
 		b = a;
 		a = sum;
 	}
-	printf("\n");
+	printf("%lu\n",value);
 	return (0);
 }
