@@ -14,7 +14,7 @@ int main(void)
 	signed long int a = 1, num = 1, sum = 1, b = 1, long_num;
 	long a_1, a_2, b_1, b_2, sum_1, sum_2;
 
-	while (a <= 93)
+	while (a < 93)
 	{
 		printf("%ld, ",sum);
 		sum = num + b;
