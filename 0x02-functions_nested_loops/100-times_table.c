@@ -36,7 +36,9 @@ void print_times_table(int n) /* n accept a value */
 		{
 			mul = i * j;
 			_putchar(mul);
-			_putchar(',  ');
+			_putchar(',');
+			_putchar(' ');
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
