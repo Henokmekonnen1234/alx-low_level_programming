@@ -38,7 +38,7 @@ int main(void)
 
 		a_1 = b_1;
 		a_2 = b_2;
-		b_1 = sum_2;
+		b_1 = sum_1;
 		b_2 = sum_2;
 	}
 	printf("\n");
