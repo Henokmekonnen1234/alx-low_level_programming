@@ -11,8 +11,8 @@ void fibonacci(void);
 
 int main(void)
 {
-	signed long int a = 1, num = 1, sum = 1, b = 1;
-	long a_head, a_tail, b_head, b_tail, sum_head, sum_tail;
+	signed long int a = 1, num = 1, sum = 1, b = 1, long_num;
+	long a_1, a_2, b_1, b_2, sum_1, sum_2;
 
 	while (a <= 93)
 	{
@@ -23,23 +23,23 @@ int main(void)
 		a++;
 	}
 
-	a_head = b / 1000000000;
-	a_tail = b % 1000000000;
-	b_head = a / 1000000000;
-	b_tail = a % 1000000000;
+	a_1 = b / 1000000000;
+	a_2 = b % 1000000000;
+	b_1 = a / 1000000000;
+	b_2 = a % 1000000000;
 
 	for (; a < 99; a++)
 	{
-		overflow = (a_tail + b_tail) / 1000000000;
-		sum_tail = (a_tail + b_tail) - (1000000000 * overflow);
-		sum_head = (a_head + b_head) + overflow;
+		long_num = (a_2 + b_2) / 1000000000;
+		sum_2 = (a_2 + b_2) - (1000000000 * long_num);
+		sum_1 = (a_1 + b_1) + long_num;
 
-		printf(", %lu%lu", sum_head, sum_tail);
+		printf(", %lu%lu", sum_1, sum_2);
 
-		a_head = b_head;
-		a_tail = b_tail;
-		b_head = sum_head;
-		b_tail = sum_tail;
+		a_1 = b_1;
+		a_2 = b_2;
+		b_1 = sum_2;
+		b_2 = sum_2;
 	}
 	printf("\n");
 	return (0);
