@@ -11,7 +11,7 @@ void fibonacci(void);
 
 int main(void)
 {
-	unsigned long int a = 1, num = 0, sum = 0, b = 1;
+	long int a = 1, num = 1, sum = 1, b = 1;
 	while (a <= 98)
 	{
 		printf("%ld, ",sum);
