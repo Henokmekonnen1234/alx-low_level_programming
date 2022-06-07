@@ -9,13 +9,13 @@
  */
 int main(void)
 {
-	long a = 1, b = 1, sum = 0;
+	unsigned long a = 1, b = 1, sum = 0;
 
 	while (sum < 4000000)
 	{
 		if (sum % 2 == 0)
 		{
-			printf("%l, ", sum);
+			printf("%lu, ", sum);
 		}
 		sum = a + b;
 		b = a;
