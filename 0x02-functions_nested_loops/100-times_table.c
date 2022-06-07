@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main."
 
 /**
  * print_times_table - prints table
@@ -8,41 +8,46 @@
  *  multiplication table
  * Return: 0
  */
-void print_times_table(int n) /* n accept a value */
+void print_times_table(int n)
 {
-	int i, j, mul;
+	int row;
+	int column;
+	int product;
 
-	for (i = 0 ; i <= n ; i++)
+	if (n >= 0 && n <= 15)
 	{
-		for (j = 0 ; j <= n ; i++)
+		for (row = 0; row <= n; row++)
 		{
-			mul = i * j;
-			if (j == 0)
-					_putchar('0' + mul);
+			for (column = 0; column <= n; column++)
+			{
+				product = (row * column);
+				if (column == 0)
+					_putchar('0' + product);
 				else
 				{
 					_putchar(',');
 					_putchar(' ');
-					if (mul <= 9)
+					if (product <= 9)
 					{
 						_putchar(' ');
 						_putchar(' ');
-						_putchar('0' + mul);
+						_putchar('0' + product);
 					}
-					else if (mul > 9 && mul < 100)
+					else if (product > 9 && product < 100)
 					{
 						_putchar(' ');
-						_putchar('0' + (mul / 10));
-						_putchar('0' + (mul % 10));
+						_putchar('0' + (product / 10));
+						_putchar('0' + (product % 10));
 					}
-					else if (mul >= 100)
+					else if (product >= 100)
 					{
-						_putchar('0' + (mul / 100));
-						_putchar('0' + ((mul / 10) % 10));
-						_putchar('0' + (mul % 10));
+						_putchar('0' + (product / 100));
+						_putchar('0' + ((product / 10) % 10));
+						_putchar('0' + (product % 10));
 					}
 				}
+			}
+			_putchar('\n');
 		}
 	}
-	_putchar('\n');
 }
