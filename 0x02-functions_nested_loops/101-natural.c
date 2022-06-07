@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (count % 3 == 0 || count % 5 == 0)
 			sum += count;
-		count++
+		count++;
 	}
 	printf("%d\n", sum);
 	return (0);
