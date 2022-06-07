@@ -14,11 +14,13 @@ int main(void)
 
 	while (count < 50)
 	{
-		printf("%ld, ", sum);
+		printf("%ld", sum);
 		sum = a + b;
 		a = b;
 		b = sum;
 		count++;
+		if (count != 49)
+			printf(", ");
 	}
 	printf("\n");
 	return (0);
