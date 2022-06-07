@@ -14,7 +14,7 @@ int main(void)
 	signed long int a = 1, num = 1, sum = 1, b = 1;
 	long a_head, a_tail, b_head, b_tail, sum_head, sum_tail;
 
-	while (a <= 98)
+	while (a <= 93)
 	{
 		printf("%ld, ",sum);
 		sum = num + b;
@@ -28,7 +28,7 @@ int main(void)
 	b_head = a / 1000000000;
 	b_tail = a % 1000000000;
 
-	for (; counter < 99; counter++)
+	for (; a < 99; a++)
 	{
 		overflow = (a_tail + b_tail) / 1000000000;
 		sum_tail = (a_tail + b_tail) - (1000000000 * overflow);
