@@ -42,6 +42,7 @@ void print_times_table(int n) /* n accept a value */
 						_putchar('0' + (mul % 10));
 					}
 				}
+		}
 	}
 	_putchar('\n');
 }
