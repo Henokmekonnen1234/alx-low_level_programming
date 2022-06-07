@@ -13,13 +13,14 @@ int main(void)
 {
 	int a = 1, num = 1, sum = 1, b = 1;
 
-	do {
+	while (a <= 98)
+	{
 		printf("%u, ", sum);
 		sum = num + b;
 		b = num;
 		num = sum;
 		a++;
-	} while (a <= 98);
+	}
 	printf("\n");
 	return (0);
 }
