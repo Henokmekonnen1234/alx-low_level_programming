@@ -13,7 +13,7 @@ int main(void)
 {
 	int a = 1, num = 1, sum = 1, b = 1;
 
-	while (a <= 98)
+	while (a <= 100)
 	{
 		printf("%u, ", sum);
 		sum = num + b;
