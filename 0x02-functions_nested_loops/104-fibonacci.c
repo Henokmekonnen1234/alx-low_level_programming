@@ -15,7 +15,7 @@ int main(void)
 
 	while (a <= 100)
 	{
-		printf("%u, ", sum);
+		printf("%lu, ", sum);
 		sum = num + b;
 		b = num;
 		num = sum;
