@@ -19,7 +19,7 @@ int main(void)
 		a = b;
 		b = sum;
 		count++;
-		if (count != 49)
+		if (count <= 49)
 			printf(", ");
 	}
 	printf("\n");
