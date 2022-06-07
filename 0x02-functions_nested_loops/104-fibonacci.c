@@ -11,7 +11,7 @@ void fibonacci(void);
 
 int main(void)
 {
-	unsigned long  a = 1, num = 1, sum = 1, b = 1;
+	unsigned long int a = 1, num = 1, sum = 1, b = 1;
 
 	while (a <= 98)
 	{
