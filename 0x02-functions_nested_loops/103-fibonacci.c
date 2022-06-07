@@ -21,6 +21,6 @@ int main(void)
 		b = a;
 		a = sum;
 	}
-	printf("%lu\n",value);
+	printf("%lu\n", value);
 	return (0);
 }
