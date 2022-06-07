@@ -1,5 +1,5 @@
 #include <stdio.h>
-void fibonacci(void);
+
 /**
  * main - Entry point
  * a,num,sum,b:int type
@@ -23,8 +23,8 @@ int main(void)
 		a++;
 	}
 
-	a_1 = a / 1000000000;
-	a_2 = a % 1000000000;
+	a_1 = num / 1000000000;
+	a_2 = num % 1000000000;
 	b_1 = b / 1000000000;
 	b_2 = b % 1000000000;
 
