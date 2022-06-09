@@ -71,5 +71,13 @@ void print_line(int n);
 
 void print_diagonal(int n);
 
+/**
+ * print_square - prints # in square formation
+ * @n: int type
+ * Return: 0
+ */
+
+void print_square(int n);
+
 
 #endif
