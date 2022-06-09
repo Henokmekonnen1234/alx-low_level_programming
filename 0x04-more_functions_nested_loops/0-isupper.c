@@ -15,7 +15,7 @@ int _isupper(char c)
 
 	i = isupper(c);
 	if (i != 0)
-		return (1);
+		return i;
 	else
-		return (0);
+		return i;
 }
