@@ -5,7 +5,7 @@
  * fizzbuzz - fizzbuzz puslw
  * Return: 0
  */
-void fizzbuzz(void)
+void main(void)
 {
 	int i;
 
