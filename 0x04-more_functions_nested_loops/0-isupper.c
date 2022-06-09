@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * _isupper - checks the char value
@@ -12,6 +11,6 @@
 int _isupper(char c)
 {
 	if (c >= 'A' && c <= 'Z')
-		return (1);
-	return (0);
+		return 1;
+	return 0;
 }
