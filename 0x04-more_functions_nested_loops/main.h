@@ -4,7 +4,7 @@
 /**
  * _isupper - checks the character if its upper case or
  * not
- * @n: Accepts char value
+ * @c: Accepts char value
  * Return: int type
  */
 
@@ -19,7 +19,7 @@ int _isupper(int c);
 int _isdigit(char c);
 
 /**
- * mul - return multiply of two int 
+ * mul - return multiply of two int
  * @a: first integer
  * @b: second integer
  * Return: multiplication of int
@@ -36,6 +36,7 @@ void print_numbers(void);
 
 /**
  * _putchar - returns putchar
+ * @i: int type
  * Return: putchar
  */
 
@@ -46,12 +47,20 @@ int _putchar(char i);
  * Return: 0 (success)
  */
 
-void print_most_numbers();
+void print_most_numbers(void);
 
 /**
  * more_numbers - print 1-14 10 times
  * Return: 0
  */
-void more_numbers();
+void more_numbers(void);
+
+/**
+ * print_line  prints n number of _
+ * @n: char type
+ * Return: 0
+ */
+
+void print_line(char n);
 
 #endif
