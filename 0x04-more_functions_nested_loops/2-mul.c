@@ -2,7 +2,7 @@
 
 /**
  * mul - multiply two integrs
- * @a: int type 
+ * @a: int type
  * @b: int type
  * Return: multiplied int value
  */
