@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * main - fizzbuzz puslw
+ * fuzzbuzz - fizzbuzz puslw
  * Return: 0
  */
-int main(void)
+void fuzzbuzz(void)
 {
 	int i;
 
