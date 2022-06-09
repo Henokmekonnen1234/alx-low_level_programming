@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * fizzbuzz - fizzbuzz puslw
+ * main - fizzbuzz puslw
  * Return: 0
  */
 void main(void)
