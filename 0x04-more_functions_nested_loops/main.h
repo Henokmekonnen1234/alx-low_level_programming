@@ -56,11 +56,20 @@ void print_most_numbers(void);
 void more_numbers(void);
 
 /**
- * print_line  prints n number of _
+ * print_line -  prints n number of _
  * @n: char type
  * Return: 0
  */
 
 void print_line(int n);
+
+/**
+ * print_diagonal -  prints n number of _
+ * @n: char type
+ * Return: 0
+ */
+
+void print_diagonal(int n);
+
 
 #endif
