@@ -2,15 +2,14 @@
 #include "main.h"
 
 /**
- * fuzzbuzz - fizzbuzz puslw
+ * main - fizzbuzz puslw
  * Return: 0
  */
-void fuzzbuzz(void)
+int main(void)
 {
 	int i;
 
-	i = 0;
-	for (i = 0 ; i <= 100 ; i++)
+	for (i = 1 ; i <= 100 ; i++)
 	{
 		if (i % 3 == 0)
 			printf("Fizz");
@@ -20,6 +19,7 @@ void fuzzbuzz(void)
 			printf("FizzBuzz");
 		else
 			printf("%d", i);
+		printf(" ");
 	}
 	return (0);
 }
