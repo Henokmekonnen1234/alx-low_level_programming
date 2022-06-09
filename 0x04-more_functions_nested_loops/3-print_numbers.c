@@ -4,7 +4,7 @@
  * mul - prints int from 1 - 10
  * Return: 0
  */
-void print_numbers(void)
+void print_numbers()
 {
 	char i;
 
