@@ -32,7 +32,7 @@ int mul(int a, int b);
  * Return: 0 (success)
  */
 
-void print_numbers();
+void print_numbers(void);
 
 /**
  * _putchar - returns putchar
