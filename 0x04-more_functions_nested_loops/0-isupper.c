@@ -8,7 +8,7 @@
  * checks whether it is upper case or not
  * Return: int value
  */
-int _isupper(char c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return 1;

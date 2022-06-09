@@ -8,7 +8,7 @@
  * Return: int type
  */
 
-int _isupper(char c);
+int _isupper(int c);
 
 /**
  * _isdigit - checks char is digit or not
