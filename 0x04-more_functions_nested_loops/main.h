@@ -79,5 +79,18 @@ void print_diagonal(int n);
 
 void print_square(int n);
 
+/**
+ * print_triangle - ptints triangle
+ *@n: int type
+ *Return: 0*/
+
+void print_triangle(int n);
+
+/**
+ * fizzbuzz - fizzbuzz puslw
+ * Return: 0
+ */
+
+void fizzbuzz(void);
 
 #endif
