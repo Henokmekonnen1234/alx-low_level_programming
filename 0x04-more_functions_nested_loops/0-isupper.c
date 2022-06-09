@@ -11,8 +11,11 @@
  */
 int _isupper(char c)
 {
-	if (isupper(c))
+	int i;
+
+	i = isupper(c);
+	if (i != 0)
 		return (1);
 	else
-		return isupper(c);
+		return (0);
 }
