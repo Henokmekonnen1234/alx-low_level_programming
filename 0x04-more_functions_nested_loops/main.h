@@ -48,5 +48,10 @@ int _putchar(char i);
 
 void print_most_numbers();
 
+/**
+ * more_numbers - print 1-14 10 times
+ * Return: 0
+ */
+void more_numbers();
 
 #endif
