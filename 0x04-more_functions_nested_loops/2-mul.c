@@ -8,7 +8,7 @@
  */
 int mul(int a, int b)
 {
-	signed int i;
+	long i;
 
 	i = a * b;
 	return (i);
