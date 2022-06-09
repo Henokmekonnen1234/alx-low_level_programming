@@ -61,6 +61,6 @@ void more_numbers(void);
  * Return: 0
  */
 
-void print_line(char n);
+void print_line(int n);
 
 #endif
