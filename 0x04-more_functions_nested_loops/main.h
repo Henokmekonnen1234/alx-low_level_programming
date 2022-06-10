@@ -98,6 +98,13 @@ void fizzbuzz(void);
  * @size: int type
  * Return: 0
  */
-void print_triangle(int size)
+void print_triangle(int size);
+
+/**
+ * print_number - print an integer, without using long, arrays, or pointers
+ * @n: number to be printed
+ */
+
+void print_number(int n);
 
 #endif
