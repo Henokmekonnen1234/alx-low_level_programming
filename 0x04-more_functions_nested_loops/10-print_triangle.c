@@ -2,24 +2,26 @@
 
 /**
  * print_square - prints n number of # in square
- * @n: int type
+ * @size: int type
  * Return: 0
  */
-void print_square(int n)
+void print_triangle(int size)
 {
-        int a, j;
+	int height;
+	int width;
+	int draw;
 
-        if (n <= 0)
-                _putchar('\n');
-        else
-        {
-                for (a = 0 ; a < n ; a++)
-                {
-                        for (j = a ; j > 0 ; j--)
-                        {
-                                _putchar('#');
-                        }
-                        _putchar('\n');
-                }
-        }
+	if (size <= 0)
+		_putchar('\n');
+
+	for (height = 1; height <= size; height++)
+	{
+		for (width = 1; width <= (size - height); width++)
+			_putchar(' ');
+
+		for (draw = 1; draw <= height; draw++)
+			_putchar('#');
+
+		_putchar('\n');
+	}
 }
