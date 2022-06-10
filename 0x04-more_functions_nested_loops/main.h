@@ -93,4 +93,11 @@ void print_triangle(int n);
 
 void fizzbuzz(void);
 
+/**
+ * print_triangle - prints n number of # in square
+ * @size: int type
+ * Return: 0
+ */
+void print_triangle(int size)
+
 #endif
