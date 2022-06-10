@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square - prints n number of # in square
+ * print_triangle - prints n number of # in square
  * @size: int type
  * Return: 0
  */
