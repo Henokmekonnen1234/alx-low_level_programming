@@ -19,4 +19,4 @@ void puts2(char *str)
 		j += 2;
 	}
 	printf("\n");
-
+}
