@@ -9,10 +9,11 @@
  */
 void puts2(char *str)
 {
-	int j;
+	int j, len;
 
-	j=0;
-	while (j <= (strlen(str) - 1))
+	j = 0;
+	len = strlen(str) - 1;
+	while (j <= len)
 	{
 		printf("%c", str[j]);
 		j += 2;
