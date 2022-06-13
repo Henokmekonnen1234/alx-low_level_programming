@@ -12,8 +12,10 @@ void puts_half(char *str)
 	int len, half_len;
 
 	len = strlen(str);
-	half_len = len / 2;
-
+	if (len % 2 != 0)
+		half_len = (len / 2) + 1;
+	else
+		half_len = (len / 2);
 	while (half_len <= len)
 	{
 		printf("%c", str[half_len]);
