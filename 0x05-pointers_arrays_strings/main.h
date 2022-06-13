@@ -93,5 +93,12 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 
 
+/**
+ * rev_string - reverses a string
+ * @s: string to reverse
+ */
+
+void rev_string(char *s)
+
 #endif
 
