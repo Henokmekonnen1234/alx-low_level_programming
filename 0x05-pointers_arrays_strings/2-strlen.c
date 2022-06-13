@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * _strlen - counts the length of string
+ * @s: char ponter typr
+ * Return: int counter
+ */
 int _strlen(char *s)
 {
 	int counter;
