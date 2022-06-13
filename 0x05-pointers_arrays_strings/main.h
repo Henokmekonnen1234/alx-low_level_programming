@@ -49,5 +49,13 @@ void print_rev(char *s);
 
 void puts2(char *str);
 
+/**
+ * puts_half - prints last half of string
+ * @str: pointer to char
+ * Return: 0
+ */
+
+void puts_half(char *str);
+
 #endif
 
