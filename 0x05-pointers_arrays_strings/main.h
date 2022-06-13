@@ -2,6 +2,16 @@
 #define  MAIN_H_
 
 /**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+
+
+/**
  * reset_to_98 - reset a value of n to 98
  * @n: int pointer type
  * Return: 0
