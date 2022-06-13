@@ -10,7 +10,6 @@
  */
 int _putchar(char c);
 
-
 /**
  * reset_to_98 - reset a value of n to 98
  * @n: int pointer type
@@ -99,6 +98,13 @@ int _atoi(char *s);
  */
 
 void rev_string(char *s)
+
+/**
+ * main - returns the length of a string
+ * @s: string
+ */
+
+int _strlen(char *s);
 
 #endif
 
