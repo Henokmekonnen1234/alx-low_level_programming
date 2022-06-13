@@ -41,5 +41,13 @@ void _puts(char *str);
 
 void print_rev(char *s);
 
+/**
+ * puts2 - prints jump one in the middle
+ * @str: char pointer
+ * Return: 0
+ */
+
+void puts2(char *str);
+
 #endif
 
