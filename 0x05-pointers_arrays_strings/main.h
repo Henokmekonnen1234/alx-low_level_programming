@@ -57,5 +57,14 @@ void puts2(char *str);
 
 void puts_half(char *str);
 
+/**
+ * print_array - print the value of an array
+ * @a: int pointer
+ * @n: siz of array v
+ * Return: 0
+ */
+void print_array(int *a, int n)
+
+
 #endif
 
