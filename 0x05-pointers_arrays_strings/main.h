@@ -26,5 +26,12 @@ void swap_int(int *a, int *b);
 
 int _strlen(char *s);
 
+/**
+ * _puts - prints string 
+ * @str: char pointer type
+ * Return: 0
+ */
+void _puts(char *str);
+
 #endif
 
