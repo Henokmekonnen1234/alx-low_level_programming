@@ -97,7 +97,7 @@ int _atoi(char *s);
  * @s: string to reverse
  */
 
-void rev_string(char *s)
+void rev_string(char *s);
 
 /**
  * main - returns the length of a string
